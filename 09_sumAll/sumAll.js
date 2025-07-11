@@ -2,8 +2,8 @@ const sumAll = function(x, y) {
     //check if x or y are ints else return error
     let sum = 0;
     // if (typeof x == "")
-    if( Number.isInteger(x) == false | Number.isInteger(y) == false | x < 0 | y <0 | y < x) {
-        return 'ERROR';
+    if( Number.isInteger(x) == false | Number.isInteger(y) == false | x < 0 | y <0) {
+        return 'ERROR'; //Bounds check
     }
     if(x < y) {
         for (i = x; i <= y; i++) {
