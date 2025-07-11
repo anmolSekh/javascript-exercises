@@ -11,6 +11,7 @@ const removeFromArray = function() {
             arr.splice(arr.indexOf(arguments[i]), 1);
         }
         
+        
         console.log(arr);
     }
     // console.log(arr)

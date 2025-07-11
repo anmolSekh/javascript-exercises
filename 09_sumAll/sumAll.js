@@ -1,7 +1,8 @@
 const sumAll = function(x, y) {
     //check if x or y are ints else return error
     let sum = 0;
-    if(x < 0 | y <0) {
+    // if (typeof x == "")
+    if(typeof x != "number"| typeof y != "number" | Number.isInteger(x) == false | Number.isInteger(y) == false | x < 0 | y <0) {
         return 'ERROR';
     }
     if(x < y) {
